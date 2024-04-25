@@ -15,7 +15,7 @@ The following steps can be followed in order to serve a static Web page through 
 5.  **Enable public access** and confirm
 6.  Click on "**Next**"
 7.  Upload an index.html file. You might want to take this one: [index.html](index.html)
-8. 
+8.  a
 
 ## Step 3: Publish the content
 
