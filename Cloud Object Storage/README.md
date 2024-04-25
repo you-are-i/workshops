@@ -20,7 +20,7 @@ The following steps can be followed in order to serve a static Web page through 
 
 ## Step 3: View the content in a browser
 
-In the list of object in the bucket, select the index.html to show its details. In the details Overview tab copy the public URL for the object.
+In the list of object in the bucket, select the "**index.html**" to show its details. In the Overview tab copy the "**Object Public URL**".
 
 ![alt text](image.png)
 
