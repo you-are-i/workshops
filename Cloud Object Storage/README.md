@@ -3,16 +3,19 @@
 The following steps can be followed in order to serve a static Web page through placing a file / files in Cloud Object Storage on IBM Cloud.
 
 ## Step 1: Create a Cloud Object Storage (COS) instance
-Login to [IBM Cloud] (https://cloud.ibm.com/login) and create a Cloud Object Storage (COS) service, if not done already.
+1. Login to [IBM Cloud](https://cloud.ibm.com/login) 
+2. If not done already, create a [Cloud Object Storage (COS)](https://cloud.ibm.com/objectstorage) instance withe the named "**COS Static Webpages**"
 
 ## Step 2: Create a COS bucket and upload a file
 
-1.  In the resource list under "Storage" select the Cloud Object Storage service you created above.
-1.  In the Buckets section, click Create bucket to create a new bucket.
-1.  Under "Predefined Buckets" select "Quickly get started"
-2.  Enter a meaningful name for the bucket and click Next
-3.  Upload an index.html file. You might want to take this one: [index.html](index.html)
-4.  Skip the "Test your bucket" step and click "View bucket configuration"
+1.  In the resource list under "Storage" select the Cloud Object Storage named "**COS Static Webpages**"
+2.  In the Overview section, click "**Create bucket**" to create a new bucket.
+3.  From the selection choose "**Host a static website**"
+4.  Enter a "**unique bucket name**" with your first- and family name (eg. youri-boehler)
+5.  **Enable public access** and confirm
+6.  Click on "**Next**"
+7.  Upload an index.html file. You might want to take this one: [index.html](index.html)
+8. 
 
 ## Step 3: Publish the content
 
